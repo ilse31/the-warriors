@@ -1,0 +1,23 @@
+# Local game dumps and extracted proprietary code.
+/game/
+/analysis/
+*.iso
+*.ISO
+*.o
+*.obj
+*.exe
+*.dll
+
+# Downloaded toolchain, dependencies, and build products.
+/tools/PS2Recomp/
+/tools/ghidra_*/
+/tools/java/
+/tools/downloads/
+/tools/xwin-source/
+/build/
+/dist/
+/.venv/
+/launcher/target/
+/launcher/dist/
+__pycache__/
+.DS_Store
