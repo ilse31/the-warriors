@@ -64,8 +64,10 @@ dengan ELF milik pengembang sendiri.
 Launcher sudah memiliki impor ISO di background, validasi SHA-256, staging,
 penyimpanan lokasi, dan pemanggilan runtime bawaan paket. Script build/packaging
 serta workflow sudah ditulis. Pengujian lokal tidak menggantikan run GitHub Actions.
-Repository belum dihubungkan ke GitHub, secret belum diisi, dan workflow belum
-pernah dijalankan di GitHub.
+Repository: https://github.com/ilse31/the-warriors. Workflow Windows aktif; lihat
+tab Actions untuk hasil setiap commit/tag. Secret input ELF belum dikonfigurasi.
+Tanpa secret, job runtime dilewati dengan keterangan dan tidak menerbitkan
+runtime baru otomatis. Rilis eksperimen pertama memakai paket yang dibangun lokal.
 
 Runtime Windows dapat dikompilasi, tetapi menu/gameplay belum terverifikasi.
 Paket selalu ditandai **experimental/prerelease**. Jangan mengubahnya menjadi

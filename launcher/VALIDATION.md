@@ -18,7 +18,8 @@ Launcher bytes: 6385664
 Launcher SHA-256: `2770c4b73918ab59276ec4df93c62d206fc84ca9e095f1bab0f7c1cc759feff8`.
 ZIP SHA-256: `d4ddb3c1f5848f346a86d2e53fc5aa9881116c87e692d6e4c0bc5a0dff5ad623`.
 
-GitHub Actions has not run remotely: the repository has no configured GitHub remote
-and `PRIVATE_GAME_ELF_URL` has not been configured. Native Windows first-run UI,
+Source and workflow are published at https://github.com/ilse31/the-warriors.
+See Actions for remote CI results. `PRIVATE_GAME_ELF_URL` remains unconfigured.
+Native Windows first-run UI,
 Windows tar extraction of a real ISO, and menu/gameplay remain unverified.
 No further native macOS game testing was performed.

@@ -53,4 +53,5 @@ Workflow GitHub sebaiknya membangun langsung di runner Windows.
 
 Workflow `.github/workflows/windows.yml` menjalankan build native Windows, memakai
 input ELF privat yang diverifikasi, dan menerbitkan ZIP eksperimen pada tag versi.
-Workflow belum dijalankan di GitHub; repository remote dan secret perlu disiapkan.
+Workflow tersedia di repository GitHub. Lihat tab Actions untuk hasilnya; secret
+input ELF perlu dikonfigurasi untuk mengaktifkan build runtime otomatis.

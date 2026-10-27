@@ -21,7 +21,8 @@ hasil recompilation dan catatan eksperimen lokal dikecualikan melalui `.gitignor
 GitHub Actions membangun paket siap pakai di Windows. Pengguna akhir hanya memilih
 ISO untuk ekstraksi aset. CI memerlukan secret `PRIVATE_GAME_ELF_URL` untuk input
 ELF pengembang yang diverifikasi; input itu tidak masuk repository atau paket.
-Workflow belum dijalankan di GitHub. Lihat flow rilis untuk pengaturannya.
+Source tersedia di https://github.com/ilse31/the-warriors. Lihat tab Actions untuk
+status CI dan flow rilis untuk pengaturan input build privat.
 
 Dependensi PS2Recomp dipin ke commit `e5636981a1c9de368f6b71e819c3dc188dfedbf4`.
 Versi executable yang diteliti memiliki SHA-256
